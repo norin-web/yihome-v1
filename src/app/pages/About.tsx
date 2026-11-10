@@ -12,7 +12,7 @@ export default function About() {
         <Reveal as="span" className="eyebrow">About</Reveal>
         <Split as="h1" className="h1" parts={[["See home first."], ["\n"], ["Menus second."]]} />
         <Reveal as="p" className="body" delay={250}>
-          {site.brand} is a small iPhone app for YI and Kami cameras. It opens on your cameras, not on a dashboard.
+          {site.brand} is a small iPhone app for YI and Kami cameras, made by {site.operator} in Málaga, Spain. It opens on your cameras, not on a dashboard.
         </Reveal>
       </section>
 

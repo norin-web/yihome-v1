@@ -34,7 +34,7 @@ export default function Home() {
           <Reveal as="span" className="eyebrow">Security camera app for iPhone</Reveal>
           <Split as="h1" className="h1" parts={[["Your home,"], ["\n"], ["always in view"]]} />
           <Reveal as="p" className="body" delay={250}>
-            Watch your YI cameras in real time, steer the view and get security alerts the moment something moves.
+            Watch your YI cameras in real time, steer the view and get alerts when something moves.
           </Reveal>
           <Reveal className="hero__cta" delay={350}>
             <Btn href={app.url} block className="hero__btn">Download on the App Store</Btn>
@@ -96,9 +96,9 @@ export default function Home() {
       <section className="inset sec sec--tight-top">
         <div className="alerts">
           <div className="alerts__text">
-            <Reveal as="h2" className="h2">Know the moment something moves</Reveal>
+            <Reveal as="h2" className="h2">Know when something moves</Reveal>
             <Reveal as="p" className="body" delay={100}>
-              Turn on Security alerts for real time security monitoring. Person, animal and motion detection each have their own switch in Camera settings.
+              Turn on Security alerts and choose what counts: person, animal and motion detection each have their own switch in Camera settings.
             </Reveal>
             <Link to="/app" className="link">See all features →</Link>
           </div>

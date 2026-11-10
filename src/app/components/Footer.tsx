@@ -35,7 +35,7 @@ export default function Footer() {
                 <img src={img("/images/app-icon.png")} alt="" width={28} height={28} />
                 <span>{site.brand}</span>
               </Link>
-              <p>{site.disclaimer}</p>
+              <p>{site.tagline}</p>
               <a className="mail" href={`mailto:${site.email}`}>{site.email}</a>
             </div>
             <div className="footer__cols">
@@ -58,8 +58,9 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          <p className="footer__legal">{site.disclaimer}</p>
           <div className="footer__copy">
-            <span>© {site.year} {site.brand}</span>
+            <span>© {site.year} {site.operator}</span>
             <a className="store" href={app.url} target="_blank" rel="noopener noreferrer">App Store</a>
             <button onClick={() => scrollTo({ top: 0, behavior: "smooth" })}>Back to top ↑</button>
           </div>
